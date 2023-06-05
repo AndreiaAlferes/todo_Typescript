@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-color: #e6e6fa;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+}
+#list li {
+  margin-bottom: 20px;
+}
+#list form input[type=text] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #8a2be2;
+}
+#list form button[type=submit] {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #8a2be2;
+  color: #ffffff;
+  border: none;
+}
+#list input[type=checkbox]:checked + label::before {
+  content: "✓";
+  display: inline-block;
+  margin-right: 5px;
+  color: #8a2be2;
+}
+
+/*# sourceMappingURL=styles.css.map */
