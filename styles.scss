@@ -20,7 +20,7 @@ body {
   padding: 0;
 
   li {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   form {
@@ -28,6 +28,7 @@ body {
       padding: 10px;
       border-radius: 10px;
       border: 1px solid $primary-color;
+      margin-bottom: 20px;
     }
 
     button[type="submit"] {

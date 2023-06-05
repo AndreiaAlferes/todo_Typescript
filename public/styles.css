@@ -14,12 +14,13 @@ body {
   padding: 0;
 }
 #list li {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 #list form input[type=text] {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #8a2be2;
+  margin-bottom: 20px;
 }
 #list form button[type=submit] {
   padding: 10px 20px;
